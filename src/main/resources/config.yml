@@ -1,0 +1,10 @@
+# Odbijanie graczy od skrzynek
+push:
+  distance: 0.5     # w jakiej odleglosci od krawedzi skrzynki (w blokach) gracz jest odbijany
+  power: 0.35       # sila odbicia (0.2 = lekko, 0.6 = mocno)
+# Klikniecie skrzynki (prawy przycisk) - cooldown na gracza w tickach (20 = 1 s)
+click-cooldown: 40
+# Resource pack wysylany graczom po wejsciu (zostaw url puste, jesli ustawiasz pack w server.properties)
+resource-pack:
+  url: ""
+  sha1: "f287c663730228b3dec1833fa7e940854706ce89"

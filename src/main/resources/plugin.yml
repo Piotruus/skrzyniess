@@ -1,0 +1,13 @@
+name: Skrzynki
+main: pl.skrzynki.SkrzynkiPlugin
+version: 1.0
+api-version: '1.21'
+description: Animowane skrzynki 3D (Display entities) i Lucky Block
+commands:
+  skrzynka:
+    description: Zarzadzanie skrzynkami
+    aliases: [skrzynki]
+    usage: /skrzynka <typ> [kat]
+permissions:
+  skrzynki.admin: {default: op}
+  skrzynki.bypass: {default: false}
